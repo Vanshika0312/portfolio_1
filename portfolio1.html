@@ -121,7 +121,7 @@
             box-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7;
         }
 
-        #cursor-outline {
+        /*  #cursor-outline {
             width: 36px;
             height: 36px;
             border: 2px solid rgba(168, 85, 247, 0.5);
@@ -133,6 +133,7 @@
             transition: transform 0.15s, width 0.3s, height 0.3s, border-color 0.3s;
         }
 
+        */
         body:hover #cursor-dot {
             transform: translate(-50%, -50%) scale(1);
         }
@@ -1389,7 +1390,7 @@
             <a href="#experience" class="nav-link">Experience</a>
             <a href="#projects" class="nav-link">Projects</a>
             <a href="#coding-profiles" class="nav-link">Profiles</a>
-            <a href="#certifications" class="nav-link">Certs</a>
+            <a href="#certifications" class="nav-link">Certificates</a>
             <a href="#contact" class="nav-link">Contact</a>
         </div>
         <button id="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
@@ -1401,7 +1402,7 @@
         <div class="hero-glow hero-glow-2"></div>
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center w-full relative z-10">
             <div class="order-2 md:order-1 text-center md:text-left reveal-left">
-                <div class="section-badge mb-4">👋 Welcome to my portfolio</div>
+                <div class="section-badge mb-4"> Welcome to my portfolio</div>
                 <h1 class="text-5xl md:text-6xl font-bold mb-4 leading-tight font-outfit">
                     Hi, I'm <span class="text-gradient">Vanshika Chauhan</span>
                 </h1>
@@ -1410,9 +1411,7 @@
                 <p class="text-slate-400 mb-8 max-w-xl">B.Tech Computer Science student at COER University, passionate
                     about building innovative solutions with modern technologies.</p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start flex-wrap">
-                    <button
-                        onclick="window.open('https://drive.google.com/file/d/1k0qFSyyVxcEWcJ3esmi7Hce65faiXHdi/view?usp=drive_link','_blank')"
-                        class="glow-btn">
+                    <button onclick="window.open('./Vanshika_softEng.pdf','_blank')" class="glow-btn">
                         <i class="fas fa-download mr-2"></i>Download Resume
                     </button>
                     <button onclick="window.open('https://github.com/Vanshika0312','_blank')" class="glow-btn-outline">
@@ -1427,7 +1426,7 @@
                     <div class="flex items-center gap-2"><span
                             class="w-2 h-2 rounded-full bg-green-400 animate-pulse inline-block"></span>Open to
                         opportunities</div>
-                    <div><i class="fas fa-map-marker-alt text-purple-400 mr-1"></i>India</div>
+                    <div><i class="fas fa-map-marker-alt text-purple-400 mr-1"></i> Haridwar , Uttarakhand , India</div>
                 </div>
             </div>
             <div class="order-1 md:order-2 flex justify-center reveal-right">
@@ -1448,14 +1447,14 @@
     <section id="stats" class="py-20 px-4 relative z-10">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-12 reveal">
-                <div class="section-badge">🏆 Achievements</div>
+                <div class="section-badge">Achievements</div>
                 <h2 class="text-4xl font-bold font-outfit mt-3 text-gradient">By The Numbers</h2>
             </div>
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="stat-card reveal" data-delay="0">
                     <div class="stat-icon">⚡</div>
                     <div class="stat-number text-gradient"><span class="counter" data-target="250">0</span>+</div>
-                    <div class="stat-label">Problems Solved</div>
+                    <div class="stat-label">Problems Solved on different platforms</div>
                 </div>
                 <div class="stat-card reveal" data-delay="100">
                     <div class="stat-icon">🚀</div>
@@ -1469,7 +1468,7 @@
                 </div>
                 <div class="stat-card reveal" data-delay="300">
                     <div class="stat-icon">🛠</div>
-                    <div class="stat-number text-gradient"><span class="counter" data-target="10">0</span>+</div>
+                    <div class="stat-number text-gradient"><span class="counter" data-target="12">0</span>+</div>
                     <div class="stat-label">Technologies Learned</div>
                 </div>
             </div>
@@ -1482,7 +1481,7 @@
     <section id="skills" class="py-20 px-4 relative z-10">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-12 reveal">
-                <div class="section-badge">🛠 Skills</div>
+                <!-- <div class="section-badge">🛠 Skills</div>  -->
                 <h2 class="text-4xl font-bold font-outfit mt-3 text-gradient">Tech Stack</h2>
                 <p class="text-slate-400 mt-3 max-w-xl mx-auto">Technologies and tools I work with to bring ideas to
                     life.</p>
@@ -1541,6 +1540,11 @@
                     <span>Express</span>
                     <div class="tech-tooltip">Node.js Framework</div>
                 </div>
+                <div class="tech-card reveal" data-category="backend">
+                    <i class="devicon-php-plain colored"></i>
+                    <span>PHP</span>
+                    <div class="tech-tooltip">Server-side Scripting Language</div>
+                </div>
                 <!-- Database -->
                 <div class="tech-card reveal" data-category="database">
                     <i class="devicon-mongodb-plain colored"></i>
@@ -1551,6 +1555,11 @@
                     <i class="devicon-mysql-plain colored"></i>
                     <span>MySQL</span>
                     <div class="tech-tooltip">Relational Database</div>
+                </div>
+                <div class="tech-card reveal" data-category="database">
+                    <i class="devicon-postgresql-plain colored"></i>
+                    <span>PostgreSQL</span>
+                    <div class="tech-tooltip">Advanced Relational Database</div>
                 </div>
                 <!-- Languages -->
                 <div class="tech-card reveal" data-category="languages">
@@ -1605,6 +1614,11 @@
                     <span>Jupyter</span>
                     <div class="tech-tooltip">Notebook IDE</div>
                 </div>
+                <div class="tech-card reveal" data-category="tools">
+                    <i class="devicon-postman-plain colored"></i>
+                    <span>Postman</span>
+                    <div class="tech-tooltip">API Testing & Development</div>
+                </div>
             </div>
         </div>
     </section>
@@ -1615,8 +1629,8 @@
     <section id="experience" class="py-20 px-4 relative z-10">
         <div class="max-w-4xl mx-auto">
             <div class="text-center mb-14 reveal">
-                <div class="section-badge">💼 Experience</div>
-                <h2 class="text-4xl font-bold font-outfit mt-3 text-gradient">Work Experience</h2>
+                <!-- <div class="section-badge">💼 Experience</div> -->
+                <h2 class="text-4xl font-bold font-outfit mt-3 text-gradient">💼 Work Experience</h2>
                 <p class="text-slate-400 mt-3">My professional journey so far.</p>
             </div>
             <div class="relative">
@@ -1655,6 +1669,62 @@
                         </div>
                     </div>
                 </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-gradient font-outfit">XecoTech Private Limited</h3>
+                                <h4 class="text-base font-semibold text-slate-200 mt-1">
+                                    Full-Stack Developer Intern
+                                </h4>
+                            </div>
+
+                            <div class="flex flex-col items-start sm:items-end gap-2">
+                                <span class="skill-tag text-xs">June 2026 – Aug 2026</span>
+                                <span class="text-xs text-slate-400">
+                                    <i class="fas fa-map-marker-alt mr-1 text-purple-400"></i>
+                                    Haridwar, Uttarakhand
+                                </span>
+                            </div>
+                        </div>
+
+                        <ul class="text-sm text-slate-300 space-y-2 mb-4">
+                            <li class="flex gap-2">
+                                <span class="text-purple-400 mt-0.5">▸</span>
+                                Developed responsive web applications using React.js, Node.js, Express.js, and MongoDB.
+                            </li>
+
+                            <li class="flex gap-2">
+                                <span class="text-purple-400 mt-0.5">▸</span>
+                                Built dynamic dashboards with advanced search, filtering, sorting, watchlist, and
+                                portfolio management features.
+                            </li>
+
+                            <li class="flex gap-2">
+                                <span class="text-purple-400 mt-0.5">▸</span>
+                                Integrated REST APIs, optimized frontend performance, and collaborated with the team
+                                using Git and GitHub.
+                            </li>
+
+                            <li class="flex gap-2">
+                                <span class="text-purple-400 mt-0.5">▸</span>
+                                Worked with MongoDB and Supabase for backend data management and implemented responsive
+                                UI components.
+                            </li>
+                        </ul>
+
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Supabase</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">REST APIs</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1662,17 +1732,17 @@
     <div class="section-divider my-4"></div>
 
     <!-- ==================== PROJECT CAROUSEL ==================== -->
-    <section id="carousel-section" class="py-20 px-4 relative z-10">
-        <div class="max-w-5xl mx-auto">
-            <div class="text-center mb-12 reveal">
-                <div class="section-badge">🎠 Showcase</div>
-                <h2 class="text-4xl font-bold font-outfit mt-3 text-gradient">Project Showcase</h2>
+    <!-- <section id="carousel-section" class="py-20 px-4 relative z-10"> -->
+    <!-- <div class="max-w-5xl mx-auto"> -->
+    <!-- <div class="text-center mb-12 reveal"> -->
+    <!-- <div class="section-badge">🎠 Showcase</div>
+                <h2 class="text-4xl font-bold font-outfit mt-3 text-gradient">🎠 Project Showcase</h2>
                 <p class="text-slate-400 mt-3">A visual tour of my featured work.</p>
             </div>
             <div class="carousel-wrap reveal">
-                <div class="carousel-slides" id="carousel-slides">
-                    <!-- Slide 1 -->
-                    <div class="carousel-slide">
+                <div class="carousel-slides" id="carousel-slides"> -->
+    <!-- Slide 1 -->
+    <!-- <div class="carousel-slide">
                         <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=900&q=80"
                             alt="AI Resume Screening">
                         <div class="carousel-overlay"></div>
@@ -1685,13 +1755,13 @@
                             <p class="text-slate-300 text-sm mb-4 max-w-xl">AI-powered resume screening system that
                                 automatically analyzes and ranks candidate resumes using NLP techniques.</p>
                             <div class="flex gap-3">
-                                <a href="https://github.com/Vanshika0312" target="_blank"
+                                <a href="https://github.com/Vanshika0312/Intelliresume" target="_blank"
                                     class="glow-btn text-sm py-2"><i class="fab fa-github mr-2"></i>GitHub</a>
                             </div>
                         </div>
-                    </div>
-                    <!-- Slide 2 -->
-                    <div class="carousel-slide">
+                    </div> -->
+    <!-- Slide 2 -->
+    <!-- <div class="carousel-slide">
                         <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&q=80"
                             alt="Customer Churn">
                         <div class="carousel-overlay"></div>
@@ -1708,9 +1778,9 @@
                                     class="glow-btn text-sm py-2"><i class="fab fa-github mr-2"></i>GitHub</a>
                             </div>
                         </div>
-                    </div>
-                    <!-- Slide 3 -->
-                    <div class="carousel-slide">
+                    </div> -->
+    <!-- Slide 3 -->
+    <!-- <div class="carousel-slide">
                         <img src="house.png" alt="House Price Prediction" style="object-fit:cover;">
                         <div class="carousel-overlay"></div>
                         <div class="carousel-content">
@@ -1727,9 +1797,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Arrows -->
-                <button class="carousel-btn" id="carousel-prev" style="left:1rem;"><i
+                </div> -->
+    <!-- Arrows -->
+    <!-- <button class="carousel-btn" id="carousel-prev" style="left:1rem;"><i
                         class="fas fa-chevron-left"></i></button>
                 <button class="carousel-btn" id="carousel-next" style="right:1rem;"><i
                         class="fas fa-chevron-right"></i></button>
@@ -1740,14 +1810,14 @@
                 <div class="carousel-dot"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- ==================== FEATURED PROJECTS ==================== -->
     <section id="projects" class="py-20 px-4 relative z-10">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-12 reveal">
-                <div class="section-badge">💻 Projects</div>
-                <h2 class="text-4xl font-bold font-outfit mt-3 text-gradient">Featured Projects</h2>
+                <!-- <div class="section-badge">💻 Projects</div> -->
+                <h2 class="text-4xl font-bold font-outfit mt-3 text-gradient">💻 Projects Showcase</h2>
                 <p class="text-slate-400 mt-3 max-w-xl mx-auto">A diverse range of projects from web apps to ML
                     solutions.</p>
             </div>
@@ -1756,15 +1826,14 @@
                 <!-- Project 1 -->
                 <div class="project-card reveal">
                     <div class="project-img-wrap">
-                        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80"
-                            alt="AI Resume Screening">
+                        <img src="C:\College'24\B.Tech\Webd\portfolio_1\Intelliresume.png" alt="AI Resume Screening">
                         <div class="project-img-overlay"></div>
                         <div
                             class="absolute top-3 right-3 text-xs font-bold text-white bg-purple-600 rounded-full px-3 py-1">
-                            ML / NLP</div>
+                            Full stack</div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gradient font-outfit mb-1">AI-Based Resume Screening</h3>
+                        <h3 class="text-xl font-bold text-gradient font-outfit mb-1">Intelliresume</h3>
                         <p class="text-xs text-slate-400 mb-3"><i
                                 class="fas fa-calendar-alt mr-1 text-purple-400"></i>Feb 2026</p>
                         <p class="text-sm text-slate-300 mb-4">Built an AI-powered resume screening system that
@@ -1786,7 +1855,7 @@
                                 extraction, Flask APIs.</p>
                         </div>
                         <div class="flex gap-3 mt-4">
-                            <a href="https://github.com/Vanshika0312" target="_blank"
+                            <a href="https://github.com/Vanshika0312/Intelliresume" target="_blank"
                                 class="glow-btn text-xs py-2 px-4"><i class="fab fa-github mr-1"></i>GitHub</a>
                         </div>
                     </div>
@@ -1923,7 +1992,8 @@
                     <div class="flex items-center gap-3 mb-4">
                         <div
                             style="width:48px;height:48px;background:#24292e;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.75rem;">
-                            <i class="fab fa-github" style="color:white;"></i></div>
+                            <i class="fab fa-github" style="color:white;"></i>
+                        </div>
                         <div>
                             <h3 class="font-bold text-white">GitHub</h3>
                             <p class="text-xs text-slate-400">@Vanshika0312</p>
@@ -2024,7 +2094,8 @@
                     <div class="flex items-center gap-3 mb-4">
                         <div
                             style="width:48px;height:48px;background:#0A66C2;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.75rem;">
-                            <i class="fab fa-linkedin" style="color:white;"></i></div>
+                            <i class="fab fa-linkedin" style="color:white;"></i>
+                        </div>
                         <div>
                             <h3 class="font-bold text-white">LinkedIn</h3>
                             <p class="text-xs text-slate-400">vanshika-chauhan</p>
@@ -2542,8 +2613,8 @@
 
         // ==================== TYPED.JS ====================
         new Typed('#element', {
-            strings: ['Web Developer 🌐', 'ML Enthusiast 🤖', 'Problem Solver ⚡', 'Innovative Thinker 💡'],
-            typeSpeed: 55, backSpeed: 30, loop: true, cursorChar: '|'
+            strings: ['Full stack Developer ', 'Software Developer', 'Problem Solver ⚡', 'Innovative Thinker 💡'],
+            typeSpeed: 60, backSpeed: 30, loop: true, cursorChar: '|'
         });
 
         // ==================== SCROLL REVEAL ====================
