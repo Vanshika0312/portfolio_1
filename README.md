@@ -1,172 +1,183 @@
-# 🌐 Personal Portfolio Website
+# 💼 Vanshika Chauhan | Full Stack Developer Portfolio
 
-A modern, responsive, and interactive developer portfolio showcasing my skills, projects, experience, and education. Built with HTML, Tailwind CSS, and JavaScript, the portfolio features a clean dark theme with smooth animations and a user-friendly interface.
+A modern, interactive and responsive personal portfolio website showcasing my skills, projects, professional experience, coding profiles and certifications.
 
-## 🚀 Live Demo
-
-🔗 https://portfolio-1-zeta-five.vercel.app/
+🌐 **Live Portfolio:** [View Portfolio](https://vanshika0312.github.io/portfolio_1/)
 
 ---
 
-## 📖 About
+## 👩‍💻 About Me
 
-This portfolio represents my journey as a Computer Science student and Full-Stack Developer. It highlights my technical skills, academic background, projects, and internship experience while providing recruiters and visitors with an easy way to learn more about me.
+Hi, I'm **Vanshika Chauhan**, a B.Tech Computer Science student at **COER University**.
+
+I am a passionate **Full Stack Developer, Machine Learning Enthusiast and Problem Solver** who enjoys building innovative and user-friendly digital solutions using modern technologies.
+
+📍 Haridwar, Uttarakhand, India
+
+I am currently **open to opportunities, internships and freelance projects**.
 
 ---
 
 ## ✨ Features
 
-- 🎨 Modern dark UI with purple-blue gradient theme
+- 🎨 Modern dark-themed UI with purple and blue gradients
 - 📱 Fully responsive design
-- ⚡ Smooth scrolling navigation
-- ⌨️ Animated typing effect using Typed.js
-- ✨ Glassmorphism design
-- 🎯 Interactive hover animations
-- 📂 Project showcase section
-- 💻 Skills categorized by domain
-- 🏢 Internship experience timeline
-- 🎓 Education section
-- 📄 Resume download option
-- 🔗 Social media links (GitHub & LinkedIn)
-- 📱 Mobile-friendly navigation menu
+- 🧭 Smooth navigation with section-based scrolling
+- ⚡ Animated loading screen
+- 🖱️ Custom cursor animation
+- ✨ Scroll progress indicator
+- 🎬 Scroll reveal animations
+- 🔢 Animated achievement counters
+- 🛠️ Interactive technology stack with category filters
+- 💼 Interactive work experience timeline
+- 🚀 Project showcase section
+- 👨‍💻 Coding profile section
+- 🏆 Certifications section
+- 📩 Functional contact form using EmailJS
+- 🤖 Interactive AI chatbot
+- 🔝 Back-to-top button
+- ✨ Particle background animation
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - HTML5
-- Tailwind CSS
+- CSS3
 - JavaScript
+- TypeScript
+- React
+- Tailwind CSS
 
-### Libraries
-- Typed.js
-- Tailwind CSS CDN
+### Backend
 
-### Deployment
-- Vercel
+- Node.js
+- Express.js
+- PHP
+
+### Databases
+
+- MongoDB
+- MySQL
+- PostgreSQL
+
+### Machine Learning & Data Science
+
+- Python
+- TensorFlow
+- NumPy
+- Pandas
+- Scikit-learn
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Jupyter Notebook
+- Postman
 
 ---
 
-## 📂 Portfolio Sections
+## 🚀 Projects
 
-### 🏠 Hero Section
-- Introduction
-- Animated typing effect
-- Resume download
-- GitHub & LinkedIn buttons
-- Profile image
+### 🤖 IntelliResume
 
-### 👨‍💻 Skills
-- Frontend
-- Backend
+AI-powered resume screening system that automatically analyzes and ranks candidate resumes based on job descriptions using NLP techniques.
+
+**Technologies:** Python, NLP, Flask
+
+---
+
+### 📉 Customer Churn Prediction
+
+Machine learning project that predicts customer churn using classification algorithms and data analysis techniques.
+
+**Technologies:** Python, Scikit-learn, SHAP
+
+---
+
+### 🏠 House Price Prediction
+
+Machine learning regression project that predicts house prices using data preprocessing, feature engineering and regression techniques.
+
+**Technologies:** Python, Pandas, Machine Learning
+
+---
+
+## 💼 Work Experience
+
+### Full-Stack Development & Programming Intern  
+**COER University** | May 2025 – July 2025
+
+- Received training in Data Structures and Algorithms.
+- Worked on Frontend Web Development.
+- Strengthened programming and technical foundations.
+- Developed multiple web projects using modern web technologies.
+- Improved aptitude and soft skills for industry readiness.
+
+---
+
+### Full-Stack Developer Intern  
+**XecoTech Private Limited** | June 2026 – August 2026
+
+- Developed responsive web applications using React.js, Node.js, Express.js and MongoDB.
+- Built dynamic dashboards with search, filtering and sorting features.
+- Implemented watchlist and portfolio management functionality.
+- Integrated REST APIs and optimized frontend performance.
+- Worked with MongoDB and Supabase for backend data management.
+- Collaborated with the team using Git and GitHub.
+
+---
+
+## 📊 Achievements
+
+- ⚡ Solved **250+ coding problems**
+- 🚀 Completed **8+ projects**
+- 💼 Completed professional internships
+- 🛠️ Learned **12+ technologies**
+
+---
+
+## 👨‍💻 Coding Profiles
+
+The portfolio includes coding profiles and programming achievements from platforms such as:
+
+- GitHub
+- HackerRank
+- LeetCode
+
+---
+
+## 🏆 Certifications
+
+The portfolio showcases certifications and learning achievements related to:
+
 - Machine Learning
-- Programming Languages
-- Tools & Technologies
-
-### 💼 Experience
-- Internship details
-- Responsibilities
-- Technologies used
-
-### 🚀 Projects
-- AI-Based Resume Screening
-- Customer Churn Prediction
-- House Price Prediction
-
-### 🎓 Education
-- B.Tech Computer Science
-- Class XII
-- Class X
+- Neural Networks
+- Full-Stack Web Development
+- HTML/CSS
+- JavaScript
+- Node.js
 
 ---
 
-## 📸 Screenshots
+## 📬 Contact
 
-### Home Page
+Feel free to connect with me for opportunities, collaborations or interesting projects.
 
-![Portfolio Screenshot](./screenshots/home.png)
+📧 **Email:** vanshikachauhan0312@gmail.com
 
-> *(Replace this image with your own screenshot.)*
+💼 **LinkedIn:** [Vanshika Chauhan](https://www.linkedin.com/in/vanshika-chauhan-35a172325)
 
----
+💻 **GitHub:** [Vanshika0312](https://github.com/Vanshika0312)
 
-## 📁 Folder Structure
-
-```text
-Portfolio/
-│── index.html
-│── myphoto1.jpg
-│── house.png
-│── screenshots/
-│── README.md
-```
+📍 **Location:** Uttarakhand, India
 
 ---
 
-## ⚙️ Installation
+## ⚙️ How to Run Locally
 
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/portfolio.git
-```
-
-Navigate to the project
-
-```bash
-cd portfolio
-```
-
-Open the project
-
-```text
-Open index.html in your browser
-```
-
-or use Live Server in VS Code.
-
----
-
-## 🎯 Future Improvements
-
-- Contact form with EmailJS
-- GitHub contribution graph
-- Coding profiles section
-- Achievement counters
-- Certificates section
-- Project filtering
-- Light/Dark theme toggle
-- AI-powered portfolio assistant
-- Framer Motion animations
-- Visitor analytics
-
----
-
-## 🤝 Connect With Me
-
-**Name:** Vanshika Chauhan
-
-📧 Email: your-email@example.com
-
-💼 LinkedIn:
-https://www.linkedin.com/in/vanshika-chauhan-35a172325/
-
-💻 GitHub:
-https://github.com/Vanshika0312
-
----
-
-## ⭐ Show Your Support
-
-If you like this project, consider giving it a ⭐ on GitHub.
-
----
-
-## 📜 License
-
-This project is open source and available under the MIT License.
-
----
-
-### Made with ❤️ by Vanshika Chauhan
+portfolio-1-jkmg.vercel.app
